@@ -1,0 +1,40 @@
+{
+  "name": "@mercurio-sc/vite-plugin-styles-in-shadow",
+  "version": "0.0.1",
+  "description": "A Vite.js plugin to inject css stylesheets links into Shadow DOM for React Web Components.",
+  "author": "Brandon Pérez <bperez@sistecredito.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mercurio-sc/vite-plugin-styles-in-shadow"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "webcomponents",
+    "css",
+    "style",
+    "shadow-dom"
+  ],
+  "main": "dist/plugin.js",
+  "types": "dist/plugin.d.ts",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p .",
+    "prepare": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "prettier": "^3.0.3",
+    "rollup": "^4.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
+  }
+}
